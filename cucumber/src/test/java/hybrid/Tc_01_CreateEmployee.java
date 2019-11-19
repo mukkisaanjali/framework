@@ -20,6 +20,7 @@ public class Tc_01_CreateEmployee extends Frameworkscript {
 			employeescreen.enterDetails(firstName,LastName);
 			Logoutscreen lgoutscreen =new Logoutscreen(driver);
 					lgoutscreen.logout();
+					System.out.println("hellooo");
 					
 	}
 		
